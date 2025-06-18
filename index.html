@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Garagem Inteligente - Arsenal de Dados</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Garagem Inteligente - Arsenal de Dados</h1>
+
+    <section id="secao-veiculos-destaque">
+        <h2>Veículos em Destaque na Garagem <button id="btn-refresh-veiculos" title="Atualizar veículos">🔄</button></h2>
+        <input type="text" id="filtro-veiculos" placeholder="Buscar veículos..." />
+        <div id="cards-veiculos-destaque">
+            <p>Carregando veículos em destaque...</p>
+        </div>
+    </section>
+
+    <section id="secao-servicos">
+        <h2>Serviços Oferecidos <button id="btn-refresh-servicos" title="Atualizar serviços">🔄</button></h2>
+        <ul id="lista-servicos-oferecidos">
+            <li>Carregando serviços...</li>
+        </ul>
+    </section>
+
+    <section id="secao-ferramentas">
+        <h2>Ferramentas Essenciais <button id="btn-refresh-ferramentas" title="Atualizar ferramentas">🔄</button></h2>
+        <ul id="lista-ferramentas-essenciais">
+            <li>Carregando ferramentas...</li>
+        </ul>
+    </section>
+
+    <script src="client.js"></script>
+</body>
+</html>
